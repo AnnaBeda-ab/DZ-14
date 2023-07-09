@@ -12,7 +12,7 @@ public class ProductPage extends AbstractPageObject {
     private final By sizeOfProduct = By.cssSelector("#option-label-size-143-item-166");
     private final By colorOfProduct = By.cssSelector("#option-label-color-93-item-50");
     private final By addToCartButton = By.cssSelector("#product-addtocart-button");
-    private final By watchCart =  By.xpath("/html/body/div[1]/header/div[2]/div[1]/a");
+    private final By watchCart =  By.xpath("(//a[@href=\"https://magento.softwaretestingboard.com/checkout/cart/\"])[3]");
             //By.cssSelector("[class='counter-number']");
 
 
